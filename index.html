@@ -24,9 +24,9 @@
                 <a class="logo-top" href="./index.html" role="button"><span class="web-font">Web</span><span
                         class="studio-top">Studio</span></a>
                 <ul class="top-link">
-                    <li><a class="link" href="./index.html" target="_blank">Agencja</a></li>
-                    <li><a class="link" href="./portfolio.html" target="_blank">Portfolio</a></li>
-                    <li><a class="link" href="#" target="_blank">Kontakt</a></li>
+                    <li><a class="nav-link-active" href="./index.html">Agencja</a></li>
+                    <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+                    <li><a class="nav-link" href="#">Kontakt</a></li>
                 </ul>
             </nav>
             <ul class="link">
@@ -46,16 +46,16 @@
     <main>
         <section class="section">
             <div class="div-belka">
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <button class="close-modal" data-modal-close><span>x</span></button>
+                    </div>
+                </div>
                 <h1 class="belka">EFEKTYWNE ROZIĄZANIA<br>
                     DLA WASZEGO BIZNESU
                 </h1>
                 <div class="button-zamow">
                     <button type="button" class="button-index" data-modal-open>Zamów usługę</button>
-                </div>
-            </div>
-            <div class="backdrop is-hiden" data-modal>
-                <div class="modal">
-                    <button type="button" class="close-modal" data-modal-close>X</button>
                 </div>
             </div>
         </section>
@@ -125,12 +125,18 @@
                 <div class="zajmujemy">
                     <h2 class="czym-sie-zajmujemy">Czym się zajmujemy</h2>
                     <ul class="image-list">
-                        <li class="li-zajmujemy"><img src="images/image_1.jpeg" alt="osoba programuje" width="370"
-                                height="294"></li>
-                        <li class="li-zajmujemy"><img src="images/image_2.jpeg"
-                                alt="osoba pracuje nad aplikacją na telefon" width="370" height="294"></li>
-                        <li class="li-zajmujemy"><img src="images/image_3.jpeg" alt="osoba wybiera kolor na tablecie"
-                                width="370" height="294"></li>
+                        <li class="li-zajmujemy"><img class="zajmujemy-image" src="images/image_1.jpeg"
+                                alt="osoba programuje" width="370" height="294">
+                            <p class="li-zajmujemy-box">Aplikacje komputerowe</p>
+                        </li>
+                        <li class="li-zajmujemy"><img class="zajmujemy-image" src="images/image_2.jpeg"
+                                alt="osoba pracuje nad aplikacją na telefon" width="370" height="294">
+                            <p class="li-zajmujemy-box">Aplikacje mobilne</p>
+                        </li>
+                        <li class="li-zajmujemy"><img class="zajmujemy-image" src="images/image_3.jpeg"
+                                alt="osoba wybiera kolor na tablecie" width="370" height="294">
+                            <p class="li-zajmujemy-box">rozwiązania graficzne</p>
+                        </li>
                     </ul>
                 </div>
             </section>
