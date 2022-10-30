@@ -257,7 +257,7 @@ ul {
 .is-hidden {
 	transform: scale(0.1);
 	opacity: 0;
-	visibility: hiden;
+	visibility:hidden;
 	pointer-events: none;
 }
 .close-modal {
@@ -374,7 +374,7 @@ ul {
 	position: absolute;
 	display: block;
 	color: #ffffff;
-	font-style: 700px;
+	font-style: normal;
 	font-size: 14px;
 	line-height: 1.1;
 	letter-spacing: 0.03em;
