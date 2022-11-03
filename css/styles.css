@@ -250,7 +250,7 @@ ul {
 .is-hidden {
 	transform: scale(0.1);
 	opacity: 0;
-	visibility:hidden;
+	visibility: hidden;
 	pointer-events: none;
 }
 .close-modal {
@@ -427,12 +427,11 @@ ul {
 }
 .person-section {
 	padding-top: 94px;
-	
 }
 
 .nasz-zespol-background {
 	margin: 0 auto;
-	width:100%;
+	width: 100%;
 	background-color: #f5f4fa;
 }
 .nasz-zespol-list {
@@ -532,7 +531,7 @@ ul {
 .li-portfolio:hover .portfolio-box {
 	transform: translateX(0);
 }
-.portfolio-photo{
+.portfolio-photo {
 	display: block;
 }
 .portfolio_h3 {
@@ -541,7 +540,7 @@ ul {
 	line-height: 2;
 	letter-spacing: 0.06em;
 	padding-top: 20px;
-	padding-left:24px;
+	padding-left: 24px;
 	color: var(--text-color);
 }
 .portfolio_p {
